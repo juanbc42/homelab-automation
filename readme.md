@@ -16,6 +16,6 @@ or have a shell script that install docker, next cloud, and a media server
 # scripts
 ``` sh
 git clone https://github.com/juanbc42/homelab-automation.git
-sudo .\install_docker.sh
+bash ./install_docker.sh
 
 ```
