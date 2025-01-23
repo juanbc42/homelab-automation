@@ -1,3 +1,4 @@
+#!/bin/bash
 # copied from official docker documentation 
 # source https://docs.docker.com/engine/install/ubuntu/#installation-methods   
 # Add Docker's official GPG key:
@@ -23,3 +24,5 @@ newgrp docker
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 # run a test
 docker run hello-world
+
+source run_nextcloud.sh
