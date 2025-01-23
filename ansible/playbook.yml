@@ -1,0 +1,9 @@
+- name: "Ansible playbook example"
+  hosts: servers
+  connection: local
+  tasks:
+
+    - name: "Check out a Git repository on the Ansible host"
+      git:
+        repo: git://github.com/path/to/repo.git
+        dest: /local/path
