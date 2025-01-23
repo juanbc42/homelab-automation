@@ -12,3 +12,10 @@ This one is the first step to start having a local server of something. The idea
 
 Ansible can be used to install all of that, docker
 or have a shell script that install docker, next cloud, and a media server
+
+# scripts
+``` sh
+git clone https://github.com/juanbc42/homelab-automation.git
+sudo .\install_docker.sh
+
+```
