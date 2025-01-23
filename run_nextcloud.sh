@@ -10,5 +10,5 @@ sudo docker run \
 --publish 8443:8443 \
 --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config \
 --volume /var/run/docker.sock:/var/run/docker.sock:ro \
---env NEXTCLOUD_DATADIR="/media/lnx/storage"
+--env NEXTCLOUD_DATADIR="/media/lnx/storage" \
 nextcloud/all-in-one:latest
