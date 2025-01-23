@@ -19,3 +19,5 @@ git clone https://github.com/juanbc42/homelab-automation.git
 bash ./install_docker.sh
 
 ```
+
+duty hulk liability geology setting ashamed graph lip
